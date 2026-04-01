@@ -6,7 +6,7 @@ This project implements both single-objective and multi-objective solvers for TT
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Two complementary approaches are used to solve TTP:
 
@@ -15,7 +15,7 @@ Two complementary approaches are used to solve TTP:
 
 ---
 
-## 🧠 Algorithms Implemented
+##  Algorithms Implemented
 
 **Single-objective:**
 
@@ -34,7 +34,7 @@ Two complementary approaches are used to solve TTP:
 
 ---
 
-## 🗺️ Datasets
+##  Datasets
 
 | Instance | Cities | Items |
 |---|---|---|
@@ -45,7 +45,7 @@ Both datasets are standard TTP benchmarks and are included in the `data/` direct
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 travelling-thief-problem-pymoo/
@@ -67,7 +67,7 @@ travelling-thief-problem-pymoo/
 
 ---
 
-## 📊 Performance Metrics Tracked
+##  Performance Metrics Tracked
 
 Each multi-objective run is evaluated using:
 
@@ -77,14 +77,14 @@ Each multi-objective run is evaluated using:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3**
 - **Libraries:** pymoo, NumPy, pandas, matplotlib, scipy
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
@@ -128,7 +128,7 @@ Each multi-objective run is evaluated using:
 
 ---
 
-## 📈 Results
+##  Results
 
 ### Single-Objective (GA vs DE)
 
@@ -176,7 +176,7 @@ On a280, NSGA-II delivered the best balance of convergence and diversity (lowest
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Solutions are decoded from a continuous representation: the first `n_cities` values encode tour order via argsort, the remaining `n_items` values encode item selection as a binary threshold at 0.5.
 - A greedy repair heuristic enforces knapsack capacity by dropping items in ascending profit-to-weight ratio order.
