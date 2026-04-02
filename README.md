@@ -1,4 +1,4 @@
-# Travelling Thief Problem — Evolutionary Optimisation with pymoo
+# Travelling Thief Problem - Evolutionary Optimisation with pymoo
 
 The Travelling Thief Problem (TTP) is a combinatorial optimisation benchmark that combines two classic NP-hard problems: the Travelling Salesman Problem (TSP) and the 0/1 Knapsack Problem. The thief must visit all cities in a tour, picking up items along the way — but collected items add weight, which slows the thief down and increases travel time. This coupling creates a conflict between maximising profit and minimising travel time, making TTP a rich multi-objective challenge.
 
