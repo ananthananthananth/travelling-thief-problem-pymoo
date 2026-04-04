@@ -62,6 +62,7 @@ travelling-thief-problem-pymoo/
 │   ├── a280-n279.txt
 │   └── fnl4461-n4460.txt
 ├── results/               # Output plots
+├── LICENSE
 └── README.md
 ```
 
